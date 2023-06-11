@@ -26,7 +26,7 @@
         </div>
     </main>
     <footer class="rodape">
-        COD3R & Alunos &copy; <?= date('Y'); ?>
+        Caio Rodrigues &copy; <?= date('Y'); ?>
     </footer>
 </body>
 </html>
