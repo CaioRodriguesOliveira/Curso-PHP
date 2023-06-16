@@ -22,7 +22,13 @@
     </nav>
     <main class="principal">
         <div class="conteudo">
-
+            <?php
+                //include($_GET['dir'] . "/" . $_GET['file'] . ".php");
+                //{_GET['dir']}
+                //{$_GET['file']}
+                //include("{_GET['dir']/")
+                include("teste/teste.php");
+            ?>
         </div>
     </main>
     <footer class="rodape">
