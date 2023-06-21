@@ -10,7 +10,7 @@ body.exercicio {
 }
 
 .principal {
-    height: calc(240vh - 240px);
+    height: calc(100vh - 240px);
 }
 
 .navegacao {
