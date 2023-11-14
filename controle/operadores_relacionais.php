@@ -37,7 +37,21 @@ if($idade < 18) {
     echo "Menor de idade, possui $idade anos!";
 }
 echo '<p>Spaceship</p><hr>';
-var_dump(5 <=> 3);
+var_dump(5 <=> 3); // se o valor da direita for > que esquerda  res = int(1)
+echo '<br>';
+var_dump(50 <=> 50); // se os valores forem iguais, res = int(0)
+echo '<br>';
+var_dump(49 <=> 50); // se o valor da esquerda for > que direita res = int(-1)
+echo '<br>';
+echo '<p>Valores pode ser V ou F</p><hr>';
+var_dump(!!5);
+echo '<br>';
+var_dump(!!0);
+echo '<br>';
+var_dump(!!"");
+echo '<br>';
+var_dump(!! " ");
+echo '<br>';
 ?>
 
 <style>
