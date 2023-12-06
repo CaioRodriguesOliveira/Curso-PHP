@@ -1,7 +1,6 @@
 <div class="titulo">Operador Ternário</div>
 
 <?php
-<<<<<<< HEAD
 
 $idade = 70;
 $status;
@@ -23,5 +22,4 @@ $status = $idade >= 18 ? $idade = 65 ? 'Aposentado' : 'Maior de Idade' : 'Menor 
 
 echo '<br>';
 echo "$status";
-=======
->>>>>>> 7ebeceaf19697f2443f1df6404251181d2bca5f5
+
